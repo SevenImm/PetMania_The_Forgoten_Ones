@@ -8,10 +8,10 @@ const people = [
   },
   {
       name: 'Joseph Vazquez',
-      role: 'Senior Designer',
+      role: 'Mini Macho',
       imageUrl:
-        'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+        '../src/assets/josephprofile.png',
+      bio: "Meet Joseph, a coding maestro with a flair for crafting powerful algorithms and sleek software solutions. Armed with a keyboard and a passion for precision, Joseph navigates the digital landscape, seamlessly blending creativity with technical expertise to bring innovative ideas to life. Whether conquering complex coding challenges or sculpting elegant user interfaces, Mini Macho is the go-to architect for a digital revolution.",
     },
     {
       name: 'Jeremy Jarvis',

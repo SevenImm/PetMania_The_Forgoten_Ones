@@ -76,7 +76,7 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="..src/assets/134658598.png"
+                        src="..src/assets/jeremyprofile.png"
                         alt=""
                       />
                     </Menu.Button>
