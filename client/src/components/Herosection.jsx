@@ -8,8 +8,7 @@ export default function Herosection() {
                 Share your Journey together
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+                Pawmania is the ultimate social media pet app, bringing pet lovers together in a vibrant online community where you can connect with like-minded enthusiasts. With a pet-friendly interface and a paw-some array of features, Pawmania is the go-to social media platform if you have a furry friend.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -18,9 +17,7 @@ export default function Herosection() {
                 >
                   Get started
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
+                
               </div>
             </div>
             <div className="mt-16 flow-root sm:mt-24">

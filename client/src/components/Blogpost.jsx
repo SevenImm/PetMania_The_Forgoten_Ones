@@ -1,51 +1,93 @@
 const posts = [
     {
       id: 1,
-      title: 'Boost your conversion rate',
+      title: 'Out on a hike !',
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
-        'https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+        'https://plus.unsplash.com/premium_photo-1661503280224-a86d7ad2a574?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: 'Apr 1, 2023',
+      datetime: '2023-03-13',
       author: {
-        name: 'Michael Foster',
+        name: 'Tate Harvey',
         imageUrl:
-          'https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg',
+          'https://plus.unsplash.com/premium_photo-1661503280224-a86d7ad2a574?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
     },
     {
       id: 2,
-      title: 'Boost your conversion rate',
+      title: 'Friends FOREVER',
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
         'https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+      date: 'Sep 6, 2023',
+      datetime: '2023-03-16',
       author: {
-        name: 'Michael Foster',
+        name: 'Petlover123',
         imageUrl:
-          'https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg',
+          'https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
     },
 
     {
       id: 3,
-      title: 'Boost your conversion rate',
+      title: 'Photoshoot time',
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
-        'https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+        'https://images.unsplash.com/photo-1583511655826-05700d52f4d9?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: 'Mar 20, 2023',
+      datetime: '2023-03-20',
       author: {
         name: 'Michael Foster',
         imageUrl:
-          'https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg',
+          'https://images.unsplash.com/photo-1583511655826-05700d52f4d9?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      },
+    },
+
+    {
+      id: 4,
+      title: 'Adventures with Furry Friends',
+      href: '#',
+      description: 'Embark on exciting journeys with your pets. Share your favorite pet adventures and discover the incredible tales of fellow pet enthusiasts.',
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1675437553489-0ddf979f299a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: 'Apr 15, 2023',
+      datetime: '2023-04-15',
+      author: {
+        name: 'Emily Parker',
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1675437553489-0ddf979f299a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      },
+    },
+    
+    {
+      id: 5,
+      title: 'Whiskers and Window Views',
+      href: '#',
+      description: 'Capture the charm of your cat as they gaze out the window. Join a community of cat lovers, showcasing the unique moments your feline friends spend by the glass.',
+      imageUrl: 'https://images.unsplash.com/photo-1609174848503-2cc1056a93ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: 'May 10, 2023',
+      datetime: '2023-05-10',
+      author: {
+        name: 'Sophie Anderson',
+        imageUrl: 'https://images.unsplash.com/photo-1609174848503-2cc1056a93ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      },
+    },
+
+    {
+      id: 6,
+      title: 'Underwater Wonders',
+      href: '#',
+      description: 'Dive into the beauty of aquatic life. Share breathtaking underwater moments and connect with fellow enthusiasts passionate about the world beneath the surface.',
+      imageUrl: 'https://images.unsplash.com/photo-1555008872-f03b347ffb53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: 'Jun 5, 2023',
+      datetime: '2023-06-05',
+      author: {
+        name: 'David Turner',
+        imageUrl: 'https://images.unsplash.com/photo-1555008872-f03b347ffb53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
     },
 
@@ -57,7 +99,7 @@ const posts = [
       <div className="bg-gradient-to-b from-sky-500 from-10% via-green-700 via-90% to bg-yellow-700 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Profile</h2>
             <p className="mt-2 text-lg leading-8 text-gray-600">
               Sharing the moments, one post at a time.
             </p>
