@@ -4,10 +4,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Auth from "../utils/auth"
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
+  { name: 'Home', href: '/', current: false },
   { name: 'Profile', href: '/Profile', current: false },
   { name: 'Team', href: '/MeetTeam', current: false },
-  { name: 'About Us', href: '/AboutUs', current: false },
+  { name: 'Not Found Example', href: '/NotFoundExample', current: false },
 ]
 
 function classNames(...classes) {
