@@ -11,6 +11,7 @@ import NotFound from './pages/NotFound.jsx';
 import Profile from './pages/Profile.jsx';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
+import Featuresfour from './components/Features.jsx';
 import MeetTeam from './pages/MeetTeam.jsx';
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       },{
         path: '/MeetTeam',
         element: <MeetTeam />
+      },
+      {
+        path: "/features",
+        element: <Featuresfour />,
       },
 
     ],

@@ -1,8 +1,8 @@
 const navigation = {
     main: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Team', href: '#' },
+      { name: 'About', href: '/Features' },
+      { name: 'Blog', href: '/Profile' },
+      { name: 'Team', href: '/MeetTeam' },
     ],
     social: [
       {
@@ -91,7 +91,7 @@ const navigation = {
             ))}
           </div>
           <p className="mt-10 text-center text-xs leading-5 text-black">
-            &copy; 2024 The Forgoten Ones. All rights reserved.
+            &copy; 2024 The Forgotten Ones. All rights reserved.
           </p>
         </div>
       </footer>
