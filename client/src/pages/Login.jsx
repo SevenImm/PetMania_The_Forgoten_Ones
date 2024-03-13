@@ -91,6 +91,11 @@ const Login = (props) => {
               onChange={handleChange}
             />
           </div>
+          <div className="mb-4 text-center">
+            <Link to="/signup" className="text-blue-500">
+              Sign Up Instead
+            </Link>
+          </div>
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             style={{ cursor: 'pointer' }}
