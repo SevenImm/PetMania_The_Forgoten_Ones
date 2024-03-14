@@ -10,6 +10,9 @@
     "seed": "cd server && npm run seed",
     "build": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\""
   },
+  "engines": {
+    "node": "20.9.0"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",

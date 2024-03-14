@@ -8,6 +8,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": "20.9.0"
+  }, 
   "dependencies": {
     "@apollo/client": "^3.9.6",
     "@headlessui/react": "^1.7.18",
