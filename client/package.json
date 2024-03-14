@@ -1,6 +1,6 @@
 {
   "name": "Petmania",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,6 @@
     "preview": "vite preview",
     "render-build": "npm install && npm run build"
     
-  },
-  "engines": {
-    "node": "20.9.0"
   }, 
   "dependencies": {
     "@apollo/client": "^3.9.6",
