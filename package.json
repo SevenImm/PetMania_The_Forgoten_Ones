@@ -9,7 +9,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
-    "render": "npm install && npm run build"
+    "render-build": "npm install && npm run build"
 
   }, 
   "keywords": [],
