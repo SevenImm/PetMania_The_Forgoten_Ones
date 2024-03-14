@@ -12,6 +12,7 @@ import Profile from './pages/Profile.jsx';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Featuresfour from './components/Features.jsx';
+import TheForgotenOnes from './components/MeetTeam.jsx';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
         path: "/features",
         element: <Featuresfour />,
       },
+      {
+        path: "/MeetTeam",
+        element: <TheForgotenOnes />,
+      },
+      
 
     ],
   },
