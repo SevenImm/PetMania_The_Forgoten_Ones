@@ -8,7 +8,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "render-build": "npm install && npm run build"
-
+    
   },
   "engines": {
     "node": "20.9.0"
@@ -17,7 +17,7 @@
     "@apollo/client": "^3.9.6",
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
-    "jwt-decode": "^4.0.0",
+    "jwt-decode": "^3.1.2",
     "nodemon": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
